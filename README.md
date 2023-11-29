@@ -8,7 +8,6 @@ Para modificar os parâmetros do algoritmo é preciso alterar os valores das con
 Para visualizar as arestas e o valor total dos objetivos de cada solução no terminal é preciso remover "/*" e "*/" das seguintes seções:
 
 /*
-
 printf("Solucoes nao dominadas encontradas na primeira populacao:\n\n");
 for(NodeDoubly *nodeDoubly = nonDominatedSolutions->head; nodeDoubly != NULL; nodeDoubly = nodeDoubly->next){
 
@@ -17,7 +16,6 @@ for(NodeDoubly *nodeDoubly = nonDominatedSolutions->head; nodeDoubly != NULL; no
 }\*/
 
 /*
-
 printf("Todas solucoes nao dominadas encontradas apos a execucao completa:\n\n");
 for(NodeDoubly *nodeDoubly = nonDominatedSolutions->head; nodeDoubly != NULL; nodeDoubly = nodeDoubly->next){
 
