@@ -18,10 +18,12 @@ printSolution(nodeDoubly->solution);
 }\*/
 
 /*
+
 printf("Todas solucoes nao dominadas encontradas apos a execucao completa:\n\n");
+
 for(NodeDoubly *nodeDoubly = nonDominatedSolutions->head; nodeDoubly != NULL; nodeDoubly = nodeDoubly->next){
 
-    printSolution(nodeDoubly->solution);
+printSolution(nodeDoubly->solution);
     
 }\*/
 
