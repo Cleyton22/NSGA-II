@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1701236625 source:c:\users\cleyton\downloads\ufba\grupo de pesquisa, bolsa (felipe fernandes)\nsga-ii\nsga-ii multi-objetivo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<limits.h>
+	<stdbool.h>
+
