@@ -11,12 +11,12 @@ Para visualizar as arestas e o valor total dos objetivos de cada solução no te
 printf("Solucoes nao dominadas encontradas na primeira populacao:\n\n");
 for(NodeDoubly *nodeDoubly = nonDominatedSolutions->head; nodeDoubly != NULL; nodeDoubly = nodeDoubly->next){
     printSolution(nodeDoubly->solution);
-}*/
+}\*/
 
 /*
 printf("Todas solucoes nao dominadas encontradas apos a execucao completa:\n\n");
 for(NodeDoubly *nodeDoubly = nonDominatedSolutions->head; nodeDoubly != NULL; nodeDoubly = nodeDoubly->next){
     printSolution(nodeDoubly->solution);
-}*/
+}\*/
 
 No momento os valores total de cada objetivo de cada solução não dominada na população inicial e no pareto front são escritos nos arquivos: ValoresDoObjetivo1DasSoluçõesIniciais, ValoresDoObjetivo2DasSoluçõesIniciais, ValoresDoObjetivo1DasSoluçõesFinais e ValoresDoObjetivo2DasSoluçõesFinais. Esse metódo foi escolhido para não transbordar o terminal, além de facilitar a armazenação dos resultados em algo como uma planilha.
