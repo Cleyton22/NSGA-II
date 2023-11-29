@@ -10,9 +10,7 @@ Para visualizar as arestas e o valor total dos objetivos de cada solução no te
 /*
 printf("Solucoes nao dominadas encontradas na primeira populacao:\n\n");
 for(NodeDoubly *nodeDoubly = nonDominatedSolutions->head; nodeDoubly != NULL; nodeDoubly = nodeDoubly->next){
-
-    printSolution(nodeDoubly->solution);
-    
+printSolution(nodeDoubly->solution);
 }\*/
 
 /*
